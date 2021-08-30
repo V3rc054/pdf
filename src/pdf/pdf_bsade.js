@@ -83,7 +83,7 @@ doc
   .text(bsade.boca, 145, 605)
   .text(bsade.pontal, 145, 620)
 
-doc.end();
+doc.end()
 
 const pdf = doc
 module.exports = pdf
