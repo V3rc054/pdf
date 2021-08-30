@@ -2,7 +2,7 @@ const PDFDocument = require('pdfkit');
 const fs = require('fs');
 
 const bsade = {
-nome : 'André Verçosa',
+nome : 'André',
    endereco : 'Rua Benedita Nunes de Campos',
    cidade : 'Sao Jose do Rio Preto',
    bairro : 'Parque Novo Horizonte',
