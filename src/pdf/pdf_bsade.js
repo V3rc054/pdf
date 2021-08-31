@@ -62,7 +62,6 @@ doc
   //DADOS PESSOAIS DO REQUERENTE
   .fontSize(11)
   .text(bsade.nome, 195, 214)
-
   .text(bsade.endereco, 120, 231)
   .text(bsade.cidade, 100, 250)
   .text(bsade.bairro, 280, 250)
@@ -74,9 +73,10 @@ doc
   .text(bsade.tel, 260, 287)
   .text(bsade.cel, 435, 287)
   .text(bsade.email, 95, 305)
-  .fontSize(09)
+  
 
   //DADOS DA VENDA
+  .fontSize(09)
   .text(bsade.nf, 130, 515)
   .text(bsade.dateVenda, 287, 515)
   .text(bsade.localVenda, 390, 515)
