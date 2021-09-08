@@ -5,6 +5,7 @@ const extravioCHA = {
     nome: 'André Luiz Verçosa',
     endereco: 'Rua Benedita Nunes de Campos',
     cidade: 'Sao Jose do Rio Preto',
+    uf_endereco:'SP',
     bairro: 'Parque Novo Horizonte',
     cep: '12239008',
     rgcnh: '412483623',
@@ -41,6 +42,7 @@ doc
     .text(extravioCHA.endereco, 350, 161)
     .fontSize(08)
     .text(extravioCHA.cidade, 445, 186,{lineBreak: false})
+    .text(extravioCHA.uf_endereco, 535, 186,{lineBreak: false})
     .fontSize(11)
     .text(extravioCHA.bairro, 209, 183)
     .text(extravioCHA.cep, 330, 183)
