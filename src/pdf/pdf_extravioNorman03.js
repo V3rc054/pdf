@@ -15,6 +15,7 @@ const extravioNorman03 = {
   bairro: 'Parque Novo Horizonte',
   cep: '12239008',
   rgcnh: '412483623',
+  o_emissor: 'SSP',
   tel: '01239669595',
   cel: '01239669595',
   email: 'contatovercosa@gmail.com',
@@ -36,23 +37,21 @@ doc.image('./src/pdf/img/img_extravioNorman03.png', 0, 15,
 doc
   //DADOS PESSOAIS 
   .fontSize(11)
-  .text(extravioNorman03.nome, 110, 214)
-  .text(extravioNorman03.cpfCnpj, 140, 231)
-  .text(extravioNorman03.nacionalidade, 400, 231)
+  .text(extravioNorman03.nome, 110, 199)
+  .text(extravioNorman03.rgcnh, 155, 226)
+  .text(extravioNorman03.o_emissor, 305, 226)
+  .text(extravioNorman03.nacionalidade, 155, 253)
+  .text(extravioNorman03.cpfCnpj, 410, 226)
   .fontSize(09)
-  .text(extravioNorman03.naturalidade, 165, 250)
-  .text(extravioNorman03.uf_nascimento, 260, 250)
+  .text(extravioNorman03.naturalidade, 340, 255)
+  .text(extravioNorman03.uf_nascimento, 440, 255)
   .fontSize(11)
-  .text(extravioNorman03.cidade, 130, 426)
   .text(extravioNorman03.endereco, 135, 372)
   .text(extravioNorman03.uf_endereco, 355, 426)
-  .text(extravioNorman03.numero, 138, 399)
-  .text(extravioNorman03.complemento, 270, 399)
-  .text(extravioNorman03.bairro, 370, 399)
-  .text(extravioNorman03.tel, 400, 249)
-  .text(extravioNorman03.cel, 135, 265)
-  .text(extravioNorman03.email, 310, 265)
-  .text(extravioNorman03.cep, 420, 426)
+  .text(extravioNorman03.tel, 390, 281)
+  .text(extravioNorman03.cel, 195, 281)
+  .text(extravioNorman03.email, 130, 309)
+  
 
   
 
